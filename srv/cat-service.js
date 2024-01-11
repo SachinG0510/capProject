@@ -45,7 +45,7 @@ class CatalogService extends cds.ApplicationService {
             // return array3;
             // return  [{"CACC_DOC_UUID":"2000000001((62"},{"CACC_DOC_UUID":"199100"}]
             let data = await getReportData()
-            console.log(JSON.stringify(data))
+            // console.log(JSON.stringify(data))
            return data
         });
 
